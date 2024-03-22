@@ -70,7 +70,7 @@ const CifraCesar: React.FC = () => {
   };
 
   return (
-    <div className="flex min-h-svh w-svw flex-col items-center justify-between bg-[url('./background.jpg')] bg-cover bg-center bg-no-repeat px-4">
+    <div className="flex min-h-svh w-svw flex-col items-center justify-between bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat px-4">
       <header className="flex w-screen text-xl font-bold items-center justify-center gap-1 bg-black/50 p-4 text-neutral-50">
         <Key weight="fill" />
         <h1 className="silkscreen">Cifra de César</h1>
